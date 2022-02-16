@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&family=Shizuru&display=swap');
+
+body{
+    margin : 0;
+    padding : 0;
+    font-family: 'montserrat',sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6F6F6F;
+}
+nav h1{
+    font-family: 'shizuru', sans-serif;
+    color :#717171;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-left: 300px;
+    margin-top: 3px;
+}
+nav .onglets a{
+text-decoration: none;
+color:black;
+margin-right: 10px;
+border-bottom: 1px solid black;
+padding-bottom: 5px;
+}
+
+@media screen and (max-width : 680px){
+nav .onglets{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+}
